@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Event Registration Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>DELTA RHYTHMS</h1>
+    
+    <img src="C:\Users\URK23CS5024\Downloads\img1.jpg" alt="Event Banner">
+</header>
+
+<main class="container">
+
+    
+    <section class="flex-layout">
+
+        
+        <div class="media-section">
+            <h2>Event Highlights</h2>
+
+            <h3>Promotional Video</h3>
+            <video controls>
+                <source src="c:\Users\URK23CS5024\Downloads\28664.mp4" type="video/mp4">
+            </video>
+
+            <h3>Intro Audio</h3>
+            <audio controls>
+                <source src=c:\Users\URK23CS5024\Downloads\event_regaudio.mp3 type="audio/mpeg">
+            </audio>
+        </div>
+
+        
+        <div class="form-section">
+            <h2>Event Registration Form</h2>
+
+            <form>
+                <label>Full Name *</label>
+                <input type="text" required>
+
+                <label>Email *</label>
+                <input type="email" required>
+
+                <label>Preferred Event Date *</label>
+                <input type="date" required>
+
+                <label>Session Preference *</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="session" required> Morning</label>
+                    <label><input type="radio" name="session"> Afternoon</label>
+                    <label><input type="radio" name="session"> Evening</label>
+                </div>
+
+                <label>Ticket Type *</label>
+                <select required>
+                    <option value="">Select</option>
+                    <option>Standard</option>
+                    <option>Premium</option>
+                    <option>VIP</option>
+                </select>
+
+                <label>Comments</label>
+                <textarea rows="3"></textarea>
+
+                
+                <input type="submit" value="Register">
+            </form>
+        </div>
+
+    </section>
+</main>
+
+</body>
+</html>
